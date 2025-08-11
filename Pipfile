@@ -9,6 +9,7 @@ numpy = "*"
 matplotlib = "*"
 seaborn = "*"
 ipykernel = "*"
+scipy = "*"
 
 [dev-packages]
 black = "*"
