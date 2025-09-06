@@ -1,0 +1,46 @@
+You find yourself on an island that you have never seen before. You cannot remember how you got here, but your rations will only last until Wednesday, September 10th. Luckily, the island seems to be of fertile soil, and full of mysterious berry bushes.
+
+You carefully collect your notes on the local berries in a file called clustering.json. You proceed to try to make sense of the diversity of different berries growing here by grouping them into clusters.
+Use the clustering algorithms we covered in the course to cluster the data that is presented into groups.
+What clustering do you obtain when using different features or different numbers of clusters?
+Can you obtain clearer clusters if you incorporate derived variables, such as the growth rate (height/age)?
+Through some painful trial and error, you have discovered that some of the berries are edible and others are not. You can tell them apart by their leaf shape, petal, and berry colors. You made notes of these features in edible.json.
+Can you identify the rules by which you can determine whether a plant is edible?
+You located some notes by a botanical expedition that was here before you. They identified five different species of berry, which you duly enter into your fact sheet. Can you distinguish the species given your information? This is recorded in species.json.
+Unfortunately, the bushes rarely have more than one of leaves, petals, and berries. Can you determine their species, or at least whether they are edible or not, using only one of these characteristics (plus whatever else you know about the plant)? Compare the effectiveness of only looking at "edibleness" as the target variable compared to deriving a species first and then using your knowledge of which species are edible. The corresponding subsets of your notes have been recorded in berry.json, leaf.json, and petal.json.
+Given that berries are your main food source, it would be beneficial to predict how large a plant's average berry will be given what you know about the plant.
+Considering everything you know about the plant apart from the size of its berries, predict the berry size using different methods (use complete.json).
+Does the prediction improve if you only perform it for edible berries (since, in all honesty, who cares about the size of inedible berries)?
+Derive an explicit expression expressing the expected berry size in terms of the remaining features. This way, you can also use your predictor out in the wilderness, where no computer is available.
+How well can you predict the size of the berry using only a subset of the total features? For instance, the quality of the soil can be very difficult to assess for non-experts, so it would be great to predict the size of the berry without it.
+
+
+Business underatsnding
+Data understanding
+Data Preparation
+Modelling
+Evaluation
+Extract rules for sklearn
+extract rules - actual
+
+analysis & recommendation
+compare & conclude
+
+I would like for us to start this project with the second task in a notebook compatible format, i.e
+part 2
+Through some painful trial and error, you have discovered that some of the berries are edible and others are not. You can tell them apart by their leaf shape, petal, and berry colors. You made notes of these features in edible.json.
+2.1 Can you identify the rules by which you can determine whether a plant is edible?
+2.2 You located some notes by a botanical expedition that was here before you. They identified five different species of berry, which you duly enter into your fact sheet. Can you distinguish the species given your information? This is recorded in species.json.
+2.3 Unfortunately, the bushes rarely have more than one of leaves, petals, and berries. Can you determine their species, or at least whether they are edible or not, using only one of these characteristics (plus whatever else you know about the plant)? Compare the effectiveness of only looking at "edibleness" as the target variable compared to deriving a species first and then using your knowledge of which species are edible. The corresponding subsets of your notes have been recorded in berry.json, leaf.json, and petal.json.
+
+since this is clearly a classification problem, i will be using python's sklearn
+
+work through the sections independently, but building upon the results and assumptions of previous sections
+
+e.g. edibility rules will now be a part of our knowledge base as we explore part 2.3
+
+I will be following the crisp-dm framework in this task, in terms of approach and methodology, do not let this complicate the process
+
+finally, i need complete code for this notebook, including relevant plots and statistics to help support my arguments
+
+do you have any questions for me before we begin or have you understood the challenge?
